@@ -1,0 +1,26 @@
+struct Car:
+    var Name: String
+    var Year: Int
+    var Color: String
+
+    fn __init__(inout self , name: String, year: Int, color: String):
+        self.Name = name
+        self.Year = year
+        self.Color = color
+
+    fn name(self) -> String:
+        return self.Name
+
+    fn year(self) -> Int:
+        return self.Year
+    
+    fn color(self) -> String:
+        return self.Color
+
+fn main():
+    let car = Car("Ford", 1998, "red")
+
+    print(car.name())
+    print(car.year())
+    print(car.color())
+

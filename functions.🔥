@@ -1,0 +1,7 @@
+fn addnumber(a: Int, b:Int) -> Int:
+    let c: Int = a + b
+    return  c
+
+fn main():
+    let c = addnumber(5,5)
+    print(c)
