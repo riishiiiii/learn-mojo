@@ -1,0 +1,6 @@
+from python import PythonObject
+
+fn main() raises:
+    let x: PythonObject = [0,1,2,3,4,5,6]
+
+    print(x[1])

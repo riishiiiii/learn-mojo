@@ -1,0 +1,10 @@
+from python import Python
+
+fn main() raises: 
+
+    # "take user input-----------------------------------------------------"
+
+    let py = Python.import_module("builtins")
+    let user_input = py.input("what is your age: ")
+
+    print("my age is ",user_input)

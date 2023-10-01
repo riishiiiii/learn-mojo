@@ -1,0 +1,17 @@
+fn main(): 
+
+    # if else --------------------------------------------------------------
+
+    let x : Int16 = 100
+    if x == 100:
+        print("number is 100")
+    elif x == 101:
+        print("number is 101")
+    else:
+        print("number is not 100")
+
+
+    # loops ----------------------------------------------------------------
+
+    # for i in range(10):
+    #     print(i)
